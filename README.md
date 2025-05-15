@@ -1,1 +1,1 @@
-# Eren Jaeger Generative Agen
+# Eren Jaeger Generative Agent
