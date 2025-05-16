@@ -1,7 +1,7 @@
 # Eren Jaeger Agent
 
 ## Overview
-The goal of this project was to insert an Eren Jaeger persona into the generative agents playground produced by Park et al.
+The goal of this project was to insert an Eren Jaeger persona into the generative agents playground produced by Park et al. Check out my posts about it at https://my-blog-4.ghost.io/?__s=b1hx3y1gxdtsmnj74ar2. 
 
 ## Project Structure
 - `generative_agents/` - This is the original code used in the paper, but it is slightly modified
