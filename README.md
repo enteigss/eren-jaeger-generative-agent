@@ -1,5 +1,7 @@
 # Eren Jaeger Agent
 
+> **Note:** This project is a **work in progress**. It's just a prototype and still under development. 
+
 ## Overview
 An interactive sandbox built from the Generative Agents paper implementation (Park et al.), extended with a custom persona of Eren Jaeger from *Attack on Titan*. This project explores AI-driven character simulation through memroy, reflection, and goal-based behavior. The simulation was copied from their codebase, with some minor modifications. If you are curious about my journey or want to know more about how I built it, check out my blog at https://my-blog-4.ghost.io/?__s=b1hx3y1gxdtsmnj74ar2.
 
