@@ -1,4 +1,4 @@
-# Eren Jaeger Agent
+# Generative Agents Sandbox: Eren Jaeger Custom Persona
 
 > **Note:** This project is a **work in progress**. It's just a prototype and still under development. 
 
