@@ -249,8 +249,8 @@ def generate_prompt(curr_input, prompt_lib_file):
     curr_input = [curr_input]
   curr_input = [str(i) for i in curr_input]
 
-  file_path_first_part = "generative_agents/reverie/backend_server/"
-  prompt_lib_file = file_path_first_part + prompt_lib_file
+  # file_path_first_part = "generative_agents/reverie/backend_server/"
+  # prompt_lib_file = file_path_first_part + prompt_lib_file
   f = open(prompt_lib_file, "r")
   prompt = f.read()
   f.close()

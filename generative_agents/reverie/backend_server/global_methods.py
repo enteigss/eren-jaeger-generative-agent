@@ -217,6 +217,10 @@ def copyanything(src, dst):
   RETURNS: 
     None
   """
+  
+  src = os.path.abspath(src)
+  dst = os.path.abspath(dst)
+
   try:
     shutil.copytree(src, dst)
   except OSError as exc: # python >2.5

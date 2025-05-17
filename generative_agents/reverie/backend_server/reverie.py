@@ -53,6 +53,8 @@ logging.basicConfig(
 )
 logging.getLogger('openai').addFilter(noOpenAIFilter())
 
+print("Current working directory:", os.getcwd())
+
 
 class ReverieServer: 
   def __init__(self, 
@@ -70,6 +72,8 @@ class ReverieServer:
     # reverie/meta/json's fork variable. 
     self.sim_code = sim_code
     sim_folder = f"{fs_storage}/{self.sim_code}"
+
+    # Add these debug prints
     copyanything(fork_folder, sim_folder)
 
     with open(f"{sim_folder}/reverie/meta.json") as json_file:  
