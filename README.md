@@ -44,12 +44,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Generate Eren's persona
-```bash
-python -m memory_generation.src.main
-```
+### Generating Personas
+Right now the Eren and Mikasa persona are already generated and integrated into the simulation, but their personas can be regenerated using the memory_generation module. However, generating personas is not currently set up to be easily usable, although with a bit of configuration you can generate any persona you want if you have a summary of their backstory. I plan to make this more accessible.
 
-2. Run simulation according to steps in the generative_agents README
+### Running the simulation
+
+1. Run simulation according to steps in the generative_agents README. I followed them and used python 3.9, but it may work with other python versions as well. 
 
 ## Future Work
 - Improve Eren's tonal coherence
