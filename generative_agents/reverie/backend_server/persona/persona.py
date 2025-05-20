@@ -37,7 +37,7 @@ def debug_print(*args, **kwargs):
         print(*args, **kwargs)
 
 class Persona: 
-  def __init__(self, name, folder_mem_saved=False, eren_jaeger=False):
+  def __init__(self, name, folder_mem_saved=False):
     # PERSONA BASE STATE 
     # <name> is the full name of the persona. This is a unique identifier for
     # the persona within Reverie. 
@@ -47,7 +47,7 @@ class Persona:
     # If there is already memory in folder_mem_saved, we load that. Otherwise,
     # we create new memory instances. 
     # <s_mem> is the persona's spatial memory. 
-    if eren_jaeger:
+    if False:
       f_s_mem_saved = "memory_generation/src/eren_jaeger/bootstrap_memory/spatial_memory.json"
       f_a_mem_saved = "memory_generation/src/eren_jaeger/bootstrap_memory/associative_memory"
       scratch_saved = "memory_generation/src/eren_jaeger/bootstrap_memory/scratch.json"
@@ -246,7 +246,6 @@ class Persona:
     perceived = self.perceive(maze)
     retrieved = self.retrieve(perceived)
     plan = self.plan(maze, personas, new_day, retrieved)
-    # print(self.name, "Plan:", plan)
     self.reflect()
 
     # <execution> is a triple set that contains the following components: 

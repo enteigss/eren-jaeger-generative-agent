@@ -45,4 +45,4 @@ def extract_events_and_reflect(file_path, persona):
         persona.scratch.importance_trigger_curr -= event_poignancy
         persona.scratch.importance_ele_n += 1
         reflect(persona)
-        persona.a_mem.save("memory_generation/src/eren_jaeger/bootstrap_memory/associative_memory")
+        persona.a_mem.save("memory_generation/src/mikasa_ackerman/bootstrap_memory/associative_memory")
